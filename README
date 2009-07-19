@@ -4,10 +4,10 @@ A simple theme for redmine.
 
 == Install
 
-  cd /path/to/redmine/public/themes
-  git clone git://github.com/komagata/darjeeling.git
+	cd /path/to/redmine/public/themes
+	git clone git://github.com/komagata/darjeeling.git
 
-Select "Darjeeling" in admin page.
+Go to "Administration -> Settings" and select "Darjeeling" in the "Theme" drop-down list.
 
 == Lisence
 
