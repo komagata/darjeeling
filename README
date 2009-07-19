@@ -1,0 +1,18 @@
+== Darjeeling
+
+A simple theme for redmine.
+
+== Install
+
+  cd /path/to/redmine/public/themes
+  git clone git://github.com/komagata/darjeeling.git
+
+Select "Darjeeling" in admin page.
+
+== Lisence
+
+MIT lisence
+
+== Author
+
+Masaki Komagata <komagata@gmail.com>
