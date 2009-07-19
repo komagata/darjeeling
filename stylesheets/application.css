@@ -22,7 +22,10 @@ h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {border:none;margin:3px 0px;}
 #main-menu li a.selected, #main-menu li a.selected:hover { background-color: #fff; color: #111; }
 
 /* Issues grid styles by priorities (provided by Wynn Netherland) */
-table.list tr.issue a { color: #666; }
+table.list tr.issue a { color: #009; }
+table.list tr.issue td { padding: 5px 0px; }
+
+tr.overdue { background-color: #ff3399; }
 
 tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; font-weight: bold; }
 tr.odd.priority-5 { background: #ffc4c4; }
