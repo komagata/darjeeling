@@ -1,6 +1,25 @@
 @import url(../../../stylesheets/application.css);
-#footer { background-color:#fff; border:0px; }
+
+a, a:link, a:visited, a:hover, a:active { text-decoration: underline; }
+
+#header { background-color: #cf991b; }
+#main { background-color: #fff; }
+#content { border-right: solid #999 1px; }
+#footer { background-color: #cf991b; color:#fff; border:0px; }
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {border:none;margin:3px 0px;}
+
+/* Topmenu */
+#top-menu { background-color: #905519; }
+#top-menu li { margin: 0 5px; }
+/* #034e85 #109db1 #fecc17 #cf991b #905519 Darjeeling */
+/* #d95305 #d96705 #d9704a #d97d47 #d98841 Darjeeling tea cup */
+
+/* Menu */
+#main-menu { margin: 0 5px; }
+#main-menu li { margin: 0 6px 0 0; }
+#main-menu li a { background-color: #f0c010; color: #fff; font-weight: normal; padding:4px 8px 6px; }
+#main-menu li a:hover { background: #fff; color: #333; text-decoration: none; }
+#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #fff; color: #111; }
 
 /* Issues grid styles by priorities (provided by Wynn Netherland) */
 table.list tr.issue a { color: #666; }
